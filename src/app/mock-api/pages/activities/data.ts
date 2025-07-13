@@ -15,7 +15,7 @@ export const activities = [
     },
     {
         id           : '6e3e97e5-effc-4fb7-b730-52a151f0b641',
-        image        : 'assets/images/avatars/male-04.jpg',
+        image        : 'assets/images/avatars/amine mraihi image.jpg',
         description  : '<strong>Leo Gill</strong> added you to <strong>Top Secret Project</strong> group and assigned you as a <strong>Project Manager</strong>',
         date         : now.minus({minutes: 50}).toISO(), // 50 minutes ago
         linkedContent: 'Top Secret Project',
@@ -49,7 +49,7 @@ export const activities = [
     },
     {
         id         : 'eb8aa470-635e-461d-88e1-23d9ea2a5665',
-        image      : 'assets/images/avatars/female-04.jpg',
+        image      : 'assets/images/avatars/feamine mraihi image.jpg',
         description: '<strong>Sophie Stone</strong> sent you a direct message',
         date       : now.minus({hours: 9}).toISO(), // 9 hours ago
     },

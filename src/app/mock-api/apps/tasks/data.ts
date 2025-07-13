@@ -49,7 +49,7 @@ export const members = [
     {
         id    : '3a23baf7-2db8-4ef5-8d49-86d3e708dff5',
         name  : 'Sue Hays',
-        avatar: 'assets/images/avatars/female-04.jpg',
+        avatar: 'assets/images/avatars/feamine mraihi image.jpg',
     },
     {
         id    : 'e62ab50e-90d3-4ed7-a911-093bb44d0c50',
@@ -64,7 +64,7 @@ export const members = [
     {
         id    : 'ef44b39b-3272-45f5-a15e-264c3b2d118e',
         name  : 'Baldwin Stein',
-        avatar: 'assets/images/avatars/male-04.jpg',
+        avatar: 'assets/images/avatars/amine mraihi image.jpg',
     },
     {
         id    : '7f5db993-ec36-412f-9db3-16d076a98807',

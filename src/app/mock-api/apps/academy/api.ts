@@ -1,14 +1,17 @@
 import { Injectable } from '@angular/core';
 import { FuseMockApiService } from '@fuse/lib/mock-api/mock-api.service';
-import { categories as categoriesData, courses as coursesData, demoCourseSteps as demoCourseStepsData } from 'app/mock-api/apps/academy/data';
+import { categories as categoriesData, courses as coursesData  } from 'app/mock-api/apps/academy/data';
 import { cloneDeep } from 'lodash-es';
+import { securityCourseSteps } from './data-security';
+import { steps_security_boot_security_001 } from './data';
 
 @Injectable({providedIn: 'root'})
 export class AcademyMockApi
 {
     private _categories: any[] = categoriesData;
     private _courses: any[] = coursesData;
-    private _demoCourseSteps: any[] = demoCourseStepsData;
+    private _demoCourseSteps: any[] = securityCourseSteps;
+    private _steps_security_boot_security_001: any[] = steps_security_boot_security_001;
 
     /**
      * Constructor
@@ -67,15 +70,20 @@ export class AcademyMockApi
                 // Get the id from the params
                 const id = request.params.get('id');
 
+                const stepsVarName = `_steps_${id}`;
+                let stepsTmp = [];
+                if (typeof (this as any)[stepsVarName] !== 'undefined') {
+                    stepsTmp = cloneDeep((this as any)[stepsVarName]);
+                }
                 // Clone the courses and steps
                 const courses = cloneDeep(this._courses);
-                const steps = cloneDeep(this._demoCourseSteps);
+                // const steps = cloneDeep(this._demoCourseSteps);
 
                 // Find the course and attach steps to it
                 const course = courses.find(item => item.id === id);
                 if ( course )
                 {
-                    course.steps = steps;
+                    course.steps = stepsTmp;
                 }
 
                 return [

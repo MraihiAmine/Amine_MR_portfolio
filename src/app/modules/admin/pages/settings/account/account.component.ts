@@ -40,7 +40,7 @@ export class SettingsAccountComponent implements OnInit
     {
         // Create the form
         this.accountForm = this._formBuilder.group({
-            name    : ['Brian Hughes'],
+            name    : ['Amine MRAIHI'],
             username: ['brianh'],
             title   : ['Senior Frontend Developer'],
             company : ['YXZ Software'],

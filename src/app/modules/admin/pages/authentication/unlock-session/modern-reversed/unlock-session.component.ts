@@ -26,7 +26,7 @@ export class UnlockSessionModernReversedComponent implements OnInit
         type   : 'success',
         message: '',
     };
-    name: string = 'Brian Hughes';
+    name: string = 'Amine MRAIHI';
     showAlert: boolean = false;
     unlockSessionForm: UntypedFormGroup;
 

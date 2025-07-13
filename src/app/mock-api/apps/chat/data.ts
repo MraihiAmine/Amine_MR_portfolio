@@ -539,7 +539,7 @@ export const contacts = [
     },
     {
         id         : 'a7806ced-03f1-4197-8b30-00bdd463366b',
-        avatar     : 'assets/images/avatars/male-04.jpg',
+        avatar     : 'assets/images/avatars/amine mraihi image.jpg',
         name       : 'Marsh Cochran',
         about      : 'Hi there! I\'m using FuseChat.',
         details    : {
@@ -711,7 +711,7 @@ export const contacts = [
     },
     {
         id         : 'abd9e78b-9e96-428f-b3ff-4d934c401bee',
-        avatar     : 'assets/images/avatars/female-04.jpg',
+        avatar     : 'assets/images/avatars/feamine mraihi image.jpg',
         name       : 'Elsie Melendez',
         about      : 'Hi there! I\'m using FuseChat.',
         details    : {
@@ -1879,7 +1879,7 @@ export const contacts = [
     },
     {
         id         : 'cdcc62e4-1520-4ccc-803d-52868c7e01ba',
-        avatar     : 'assets/images/avatars/female-04.jpg',
+        avatar     : 'assets/images/avatars/feamine mraihi image.jpg',
         name       : 'Dee Alvarado',
         about      : 'Hi there! I\'m using FuseChat.',
         details    : {
@@ -2370,7 +2370,7 @@ export const contacts = [
     },
     {
         id         : 'bedcb6a2-da83-4631-866a-77d10d239477',
-        avatar     : 'assets/images/avatars/male-04.jpg',
+        avatar     : 'assets/images/avatars/amine mraihi image.jpg',
         name       : 'Alvarado Turner',
         about      : 'Hi there! I\'m using FuseChat.',
         details    : {
@@ -2857,7 +2857,7 @@ export const contacts = [
     },
     {
         id         : '844668c3-5e20-4fed-9e3a-7d274f696e61',
-        avatar     : 'assets/images/avatars/female-04.jpg',
+        avatar     : 'assets/images/avatars/feamine mraihi image.jpg',
         name       : 'Johnnie Cleveland',
         about      : 'Hi there! I\'m using FuseChat.',
         details    : {
@@ -3078,8 +3078,8 @@ export const contacts = [
 ];
 export const profile: any = {
     id    : 'cfaad35d-07a3-4447-a6c3-d8c3d54fd5df',
-    name  : 'Brian Hughes',
-    email : 'hughes.brian@company.com',
-    avatar: 'assets/images/avatars/brian-hughes.jpg',
+    name  : 'Amine MRAIHI',
+    email : 'mraihiamin@gmail.com',
+    avatar: 'assets/images/avatars/amine mraihi image.jpg',
     about : 'Hi there! I\'m using FuseChat.',
 };

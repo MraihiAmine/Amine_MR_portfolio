@@ -257,7 +257,7 @@ export const members = [
     {
         id    : '74975a82-addb-427b-9b43-4d2e03331b68',
         name  : 'Sue Hays',
-        avatar: 'assets/images/avatars/female-04.jpg',
+        avatar: 'assets/images/avatars/feamine mraihi image.jpg',
     },
     {
         id    : '18bb18f3-ea7d-4465-8913-e8c9adf6f568',
@@ -272,7 +272,7 @@ export const members = [
     {
         id    : '0d1eb062-13d5-4286-b8d4-e0bea15f3d56',
         name  : 'Baldwin Stein',
-        avatar: 'assets/images/avatars/male-04.jpg',
+        avatar: 'assets/images/avatars/amine mraihi image.jpg',
     },
     {
         id    : '5bf7ed5b-8b04-46b7-b364-005958b7d82e',

@@ -140,7 +140,7 @@ export const contacts = [
     },
     {
         id          : 'a7806ced-03f1-4197-8b30-00bdd463366b',
-        avatar      : 'assets/images/avatars/male-04.jpg',
+        avatar      : 'assets/images/avatars/amine mraihi image.jpg',
         background  : 'assets/images/cards/17-640x480.jpg',
         name        : 'Marsh Cochran',
         emails      : [
@@ -317,7 +317,7 @@ export const contacts = [
     },
     {
         id          : 'abd9e78b-9e96-428f-b3ff-4d934c401bee',
-        avatar      : 'assets/images/avatars/female-04.jpg',
+        avatar      : 'assets/images/avatars/feamine mraihi image.jpg',
         background  : 'assets/images/cards/22-640x480.jpg',
         name        : 'Elsie Melendez',
         emails      : [
@@ -1521,7 +1521,7 @@ export const contacts = [
     },
     {
         id          : 'cdcc62e4-1520-4ccc-803d-52868c7e01ba',
-        avatar      : 'assets/images/avatars/female-04.jpg',
+        avatar      : 'assets/images/avatars/feamine mraihi image.jpg',
         background  : 'assets/images/cards/29-640x480.jpg',
         name        : 'Dee Alvarado',
         emails      : [
@@ -2026,7 +2026,7 @@ export const contacts = [
     },
     {
         id          : 'bedcb6a2-da83-4631-866a-77d10d239477',
-        avatar      : 'assets/images/avatars/male-04.jpg',
+        avatar      : 'assets/images/avatars/amine mraihi image.jpg',
         background  : 'assets/images/cards/19-640x480.jpg',
         name        : 'Alvarado Turner',
         emails      : [
@@ -2527,7 +2527,7 @@ export const contacts = [
     },
     {
         id          : '844668c3-5e20-4fed-9e3a-7d274f696e61',
-        avatar      : 'assets/images/avatars/female-04.jpg',
+        avatar      : 'assets/images/avatars/feamine mraihi image.jpg',
         background  : 'assets/images/cards/30-640x480.jpg',
         name        : 'Johnnie Cleveland',
         emails      : [
