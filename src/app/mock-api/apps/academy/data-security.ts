@@ -1,14 +1,14 @@
 import { demoCourseContentCollegue } from "./demoCourseContent";
 import { demoCourseContentIntegrationCollegue } from "./demoCourseContentIntegrationCollegue";
 import { demoCourseContentManquementCollegue } from "./demoCourseContentManquementCollegue";
-import { securityStepContent0 } from "./SECURITy_steps/securityStepContent0";
-import { securityStepContent1 } from "./SECURITy_steps/securityStepContent1";
-import { securityStepContent2 } from "./SECURITy_steps/securityStepContent2";
-import { securityStepContent3 } from "./SECURITy_steps/securityStepContent3";
-import { securityStepContent4 } from "./SECURITy_steps/securityStepContent4";
-import { securityStepContent5 } from "./SECURITy_steps/securityStepContent5";
-import { securityStepContent6 } from "./SECURITy_steps/securityStepContent6";
-import { securityStepContent7 } from "./SECURITy_steps/securityStepContent7";
+import { securityStepContent0 } from "./1_security/1_SECURITy_steps/0 securityStepContent0";
+import { securityStepContent1 } from "./1_security/1_SECURITy_steps/1 securityStepContent1";
+import { securityStepContent2 } from "./1_security/1_SECURITy_steps/securityStepContent2";
+import { securityStepContent3 } from "./1_security/1_SECURITy_steps/securityStepContent3";
+import { securityStepContent4 } from "./1_security/1_SECURITy_steps/securityStepContent4";
+import { securityStepContent5 } from "./1_security/1_SECURITy_steps/securityStepContent5";
+import { securityStepContent6 } from "./1_security/1_SECURITy_steps/securityStepContent6";
+import { securityStepContent7 } from "./1_security/1_SECURITy_steps/securityStepContent7";
 import { securityCourseContent } from "./securityCourseContent";
 
 /* eslint-disable */

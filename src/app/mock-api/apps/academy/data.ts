@@ -1,14 +1,14 @@
 import { demoCourseContentCollegue } from './demoCourseContent';
 import { demoCourseContentIntegrationCollegue } from './demoCourseContentIntegrationCollegue';
 import { demoCourseContentManquementCollegue } from './demoCourseContentManquementCollegue';
-import { securityStepContent0 } from './SECURITy_steps/securityStepContent0';
-import { securityStepContent1 } from './SECURITy_steps/securityStepContent1';
-import { securityStepContent2 } from './SECURITy_steps/securityStepContent2';
-import { securityStepContent3 } from './SECURITy_steps/securityStepContent3';
-import { securityStepContent4 } from './SECURITy_steps/securityStepContent4';
-import { securityStepContent5 } from './SECURITy_steps/securityStepContent5';
-import { securityStepContent6 } from './SECURITy_steps/securityStepContent6';
-import { securityStepContent7 } from './SECURITy_steps/securityStepContent7';
+import { securityStepContent0 } from './1_security/1_SECURITy_steps/0 securityStepContent0';
+import { securityStepContent1 } from './1_security/1_SECURITy_steps/1 securityStepContent1';
+import { securityStepContent2 } from './1_security/1_SECURITy_steps/securityStepContent2';
+import { securityStepContent3 } from './1_security/1_SECURITy_steps/securityStepContent3';
+import { securityStepContent4 } from './1_security/1_SECURITy_steps/securityStepContent4';
+import { securityStepContent5 } from './1_security/1_SECURITy_steps/securityStepContent5';
+import { securityStepContent6 } from './1_security/1_SECURITy_steps/securityStepContent6';
+import { securityStepContent7 } from './1_security/1_SECURITy_steps/securityStepContent7';
 import { securityCourseContent } from './securityCourseContent';
 
 /* eslint-disable */
@@ -57,7 +57,7 @@ export const courses = [
         },
     },
     {
-        id: 'java_gc_memory_001',
+        id: 'GC_001',
         title: 'Gestion de la mémoire et Garbage Collector en Java',
         slug: 'garbage-collector-java',
         description:
@@ -66,6 +66,22 @@ export const courses = [
         duration: 75,
         totalSteps: 9,
         updatedAt: 'Jul 12, 2025',
+        featured: true,
+        progress: {
+            currentStep: 0,
+            completed: 0,
+        },
+    },
+    {
+        id: 'java_spring_transactional_001',
+        title: 'Gestion des Transactions avec @Transactional en Spring',
+        slug: 'transactional-spring-java',
+        description:
+            'Ce module présente l’annotation @Transactional dans Spring, son fonctionnement, ses types de propagation, gestion des rollback, isolation, et bonnes pratiques pour assurer la cohérence des données.',
+        category: 'Spring / Java',
+        duration: 70,
+        totalSteps: 8,
+        updatedAt: 'Jul 14, 2025',
         featured: true,
         progress: {
             currentStep: 0,
@@ -480,55 +496,3 @@ export const securityStepsContent = `
     Développer ses soft skills demande du temps et de la pratique. La régularité, l’ouverture d’esprit et les retours constructifs sont vos meilleurs alliés dans ce cheminement professionnel.
 </p>
 `;
-export const steps_security_boot_security_001 = [
-    {
-        order: 0,
-        title: 'Introduction à la sécurité Spring Boot',
-        subtitle:
-            'Comprendre les enjeux de la sécurité dans une application web',
-        content: `${securityStepContent0}`,
-    },
-    {
-        order: 1,
-        title: 'Configurer Spring Security',
-        subtitle:
-            'Mettre en place la configuration de base avec SecurityFilterChain',
-        content: `${securityStepContent1}`,
-    },
-    {
-        order: 2,
-        title: 'Créer un filtre JWT personnalisé',
-        subtitle: 'Intercepter et valider les tokens dans les requêtes HTTP',
-        content: `${securityStepContent2}`,
-    },
-    {
-        order: 3,
-        title: 'Configurer la chaîne de filtres',
-        subtitle: 'Positionner le filtre JWT dans la chaîne Spring Security',
-        content: `${securityStepContent3}`,
-    },
-    {
-        order: 4,
-        title: 'Générer un token JWT',
-        subtitle: 'Créer un service pour signer les tokens à la connexion',
-        content: `${securityStepContent4}`,
-    },
-    {
-        order: 5,
-        title: 'Valider un token JWT',
-        subtitle: 'Lire, décoder et vérifier la validité du token',
-        content: `${securityStepContent5}`,
-    },
-    {
-        order: 6,
-        title: 'Protéger les endpoints REST',
-        subtitle: 'Appliquer les règles d’accès selon les rôles',
-        content: `${securityStepContent6}`,
-    },
-    {
-        order: 7,
-        title: 'Tester l’authentification JWT',
-        subtitle: 'Vérifier le bon fonctionnement avec Postman ou curl',
-        content: `${securityStepContent7}`,
-    },
-];

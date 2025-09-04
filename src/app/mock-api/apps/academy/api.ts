@@ -3,7 +3,9 @@ import { FuseMockApiService } from '@fuse/lib/mock-api/mock-api.service';
 import { categories as categoriesData, courses as coursesData  } from 'app/mock-api/apps/academy/data';
 import { cloneDeep } from 'lodash-es';
 import { securityCourseSteps } from './data-security';
-import { steps_security_boot_security_001 } from './data';
+import { steps_security_boot_security_001 } from './1_security/1_steps';
+import { steps_java_gc_memory_001 } from './2_garbage_collector/1_steps';
+import { steps_java_spring_transactional_001 } from './3_transactional/1_steps';
 
 @Injectable({providedIn: 'root'})
 export class AcademyMockApi
@@ -12,6 +14,8 @@ export class AcademyMockApi
     private _courses: any[] = coursesData;
     private _demoCourseSteps: any[] = securityCourseSteps;
     private _steps_security_boot_security_001: any[] = steps_security_boot_security_001;
+    private _steps_GC_001: any[] = steps_java_gc_memory_001;
+    private _steps_java_spring_transactional_001: any[] = steps_java_spring_transactional_001;
 
     /**
      * Constructor
